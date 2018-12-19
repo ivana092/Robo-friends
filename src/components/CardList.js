@@ -5,9 +5,6 @@ import Card from './Card';
 		render(){
 			/*here props is an array of robots*/
 			const {robots}=this.props;
-            /*if(true){
-            	throw new Error("Encountered error while displaying cards. Please try again!");
-            }*/
 			return(
 				<div>
 				{
